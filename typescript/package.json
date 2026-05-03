@@ -1,0 +1,23 @@
+{
+  "name": "@nullapt/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript/AssemblyScript SDK for building nullapt WASM skills",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nullapt/sdk"
+  },
+  "keywords": ["nullapt", "wasm", "mcp", "ai", "skills"],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "dependencies": {
+    "@extism/extism": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
