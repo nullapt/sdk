@@ -39,8 +39,8 @@ pub fn my_tool(input: Json<Input>) -> FnResult<Json<Output>> {
 Build:
 
 ```bash
-cargo build --target wasm32-wasi --release
-cp target/wasm32-wasi/release/my_skill.wasm skill.wasm
+cargo build --target wasm32-wasip1 --release
+cp target/wasm32-wasip1/release/my_skill.wasm skill.wasm
 ```
 
 ---
